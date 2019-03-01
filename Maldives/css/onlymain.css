@@ -1,1 +1,14 @@
 @charset "utf-8";
+
+article>h2
+{
+	font-size: 2.3em;
+	font-family: Andale Mono, monospace;
+	margin-bottom: 20px;
+    color: whitesmoke;
+}
+article>img
+{
+	border: 2px midnightblue outset;	
+	width: 660px;
+}
