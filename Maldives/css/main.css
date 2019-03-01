@@ -1,1 +1,137 @@
 @charset "utf-8";
+
+*
+{
+	margin: 0%;
+	padding: 0%;	
+} 
+html
+{
+	width: 100%;
+	height: 100%;
+}
+body
+{
+	background: url(../images/backgroundMaldives.jpg);
+    -webkit-background-size: 100%;/*для chrome*/
+}
+
+a
+{	
+    text-decoration: none;
+	color: darkblue;
+	font-weight: bold;
+}
+a:hover/*наводка на текст меню, міняється підсвітка*/
+{
+	text-decoration: none;
+	color: #F5F5F5;
+	font-weight: normal;
+}
+
+header
+{
+	float: left;
+	background: #ADD8E6;
+	width: 99.4%;
+	padding: 0.3%;
+	color: #F5F5F5;
+	border-bottom: 2px solid #343434;
+}
+header>h1
+{
+	float: left;
+	margin-left: 25px;
+	font-family: New Century Schoolbook, TeX Gyre Schola, cursive;
+    color: #F5F5F5;
+}
+header>ul
+{
+	float: left;
+	padding: 10px;
+	margin-right: 50px;	
+}
+header>ul>li
+{
+	font-size: 1.2em;
+    font-family: cursive;
+	float: left;
+	list-style: none;
+	text-align: center;
+	width: 125px;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+footer
+{
+	float: left;
+	background: #ADD8E6;
+	width: 98%;
+	padding: 1%;
+	color: midnightblue;
+	border-top: 2px solid #343434;
+}
+
+footer>p
+{
+    font-family: cursive;
+	float: left;
+}
+footer>ul>li
+{
+	font-size: 1em;
+	float: right;
+	list-style: none;	
+	width: 100px;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+nav
+{
+	font-size: 2em;
+	list-style: none;
+	float: left;
+	width: 15%;
+	text-align: right;
+	padding-top: 13%;
+	padding-right: 5px;
+}
+.left-menu 
+{
+	float: left;
+	opacity: 0.7;	
+	width: 200px;
+}
+.left-menu>ul>li 
+{
+	border-bottom: 1px solid #eaeaea;
+}
+.left-menu>ul>li a 
+{
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	color: #eaeaea;
+}
+.left-menu>ul>li a:hover 
+{
+	background: #eaeaea;
+	color: black;
+}
+
+article
+{
+	margin-top: 30px;
+	margin-bottom: 12px;
+	color: white;
+	text-align: center;
+	float: left;
+	width: 70%;
+}
+article:img
+{
+	margin: auto;
+	width: 100%;	
+}
