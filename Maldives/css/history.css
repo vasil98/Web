@@ -1,1 +1,96 @@
 @charset "utf-8";
+
+aside
+{
+	font-size: 2em;
+	list-style: none;
+	float: left;
+	width: 15%;
+	text-align: left;
+	padding-top: 13%;
+	padding-left: auto;
+}
+.right-menu
+{
+	float: right;		
+	width: 200px;
+    opacity: 0.7;	
+}
+.right-menu>ul>li 
+{
+	list-style: none;
+	border-bottom: 1px solid #eaeaea;
+}
+.right-menu>ul>li a
+{
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	color: #eaeaea;
+}
+.right-menu>ul>li a:hover
+{
+	background: #eaeaea;
+	color: black;
+}
+
+article
+{
+	margin-left: 5%;
+	color: white;
+	text-align: left;
+	float: center;
+	width: 60%;
+}
+
+article>h2
+{
+    float: left;
+    margin-top: 1%;
+	margin-left: 34%;
+    margin-bottom: 2%;
+	font-family: New Century Schoolbook, TeX Gyre Schola, cursive;
+    color: lightpink;    
+}
+article>p
+{
+	font-family: 'Comic Sans MS', sans-serif;
+	font-size: 15.8px;
+    margin-top: 2%;
+    text-indent: 5%;
+    text-align: left;
+    color: #F0E68C;
+}
+
+.image
+{   
+    width: 200px;
+    height: 100px;
+    margin-left: 1%;
+    margin-top: -10%;
+    
+}
+img
+{
+    box-shadow: 0 0 5px;/*тінь картинки*/
+}
+
+footer
+{
+	width: 98%;
+	padding: 1%;
+    margin-top: 10%;
+}
+
+figure 
+{
+    float: left;
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;  
+    margin: 3%;   
+}
+figcaption
+{
+    color: aliceblue;
+}
