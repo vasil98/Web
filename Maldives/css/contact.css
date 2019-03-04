@@ -1,1 +1,99 @@
 @charset "utf-8";
+
+aside
+{
+	font-size: 2em;
+	list-style: none;
+	float: left;
+	width: 15%;
+	text-align: left;
+	padding-top: 13%;
+	padding-left: auto;
+}
+.right-menu
+{
+	float: right;		
+	width: 200px;
+    opacity: 0.7;	
+}
+.right-menu>ul>li 
+{
+	list-style: none;
+	border-bottom: 1px solid #eaeaea;
+}
+.right-menu>ul>li a
+{
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	color: #eaeaea;
+}
+.right-menu>ul>li a:hover
+{
+	background: #eaeaea;
+	color: black;    
+}
+
+footer
+{
+	width: 98%;
+	padding: 1%;
+    margin-top: 10%;
+}
+
+form>h2
+{
+    font-size: 1.4em;
+	font-family: Andale Mono, monospace;
+	margin-bottom: 3%;
+    margin-left: 28%;
+    color: #FF1493;
+    font-family: Bradley Hand, cursive;
+}
+
+fieldset 
+{
+    padding-top: 2.5%;
+    margin: 1.5%;
+    margin-left: 30%;
+}
+legend
+{    
+    padding: 0.9px;
+    font-weight: bold;
+    color: #BC8F8F;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+label
+{
+    width: 110px;
+    display: inline-block;    
+    margin: 2px;
+    color: #800080;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+input
+{
+    width: 200px;
+    opacity: 0.7;
+    font-family: Impact, fantasy, cursive;
+}
+input[type=submit]
+{
+    width: 13%;
+    padding: 0.8%;
+    margin-left: 27%;
+    margin-top: 1.8%; 
+    color: #4d0000;
+    opacity: 0.9;    
+    transition: .5s ease-in-out;
+    border-radius: 15px;
+}
+
+select
+{
+    width: 200px;
+    opacity: 0.7;
+    font-family: Impact, fantasy, cursive;
+}
